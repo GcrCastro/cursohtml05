@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalizando links</title>
+    <style>
+        a{
+            color: chocolate;
+            text-decoration: none;
+        }
+        a:visited {
+            color: green;
+           
+        }
+        a:active{
+            color: brown;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        a::after{
+            content: '✽';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+        <li><a href="https://www.globo.com/">Site do Globo</a></li>
+        <li><a href="folha.com">Site da Folha</a></li>
+        <li><a href="uol.com.br">Site do UOL</a></li>
+    </ul>
+    
+</body>
+</html>
