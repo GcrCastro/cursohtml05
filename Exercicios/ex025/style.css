@@ -9,7 +9,7 @@
       border-radius: 20px;
 }
 #q1{
-    background-color: skyblue;
+    background-image: url('imagens/wallpaper001.jpg');
 }
 #q2{
     background-image: linear-gradient(to bottom, yellow , orange);
